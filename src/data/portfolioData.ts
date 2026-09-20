@@ -231,6 +231,18 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     ]
   },
   {
+    title: "Core Concepts",
+    description: "Theoretical computing foundations and system architectures",
+    skills: [
+      { name: "Data Structures & Algorithms (DSA)", level: "Strong" },
+      { name: "OOP", level: "Proficient" },
+      { name: "DBMS", level: "Proficient" },
+      { name: "SQL", level: "Proficient" },
+      { name: "Operating Systems", level: "Core Foundation" },
+      { name: "Computer Networks", level: "Core Foundation" }
+    ]
+  },
+  {
     title: "Developer Tools",
     description: "Version control, API testing, and daily dev environments",
     skills: [

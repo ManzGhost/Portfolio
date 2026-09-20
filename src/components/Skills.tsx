@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Server, Database, Wrench, CheckCircle2, Cpu } from 'lucide-react';
+import { Layout, Server, Database, Wrench, CheckCircle2, Cpu, BookOpen } from 'lucide-react';
 import { SKILL_CATEGORIES } from '../data/portfolioData';
 
 export default function Skills() {
@@ -7,6 +7,7 @@ export default function Skills() {
     "Frontend Development": Layout,
     "Backend Development": Server,
     "Database Management": Database,
+    "Core Concepts": BookOpen,
     "Developer Tools": Wrench,
   };
 
@@ -25,6 +26,11 @@ export default function Skills() {
       border: "hover:border-emerald-500/40",
       glow: "from-emerald-500/10 to-transparent",
       badge: "bg-emerald-500/10 text-emerald-300 border-emerald-500/20"
+    },
+    "Core Concepts": {
+      border: "hover:border-purple-500/40",
+      glow: "from-purple-500/10 to-transparent",
+      badge: "bg-purple-500/10 text-purple-300 border-purple-500/20"
     },
     "Developer Tools": {
       border: "hover:border-indigo-500/40",
@@ -52,7 +58,7 @@ export default function Skills() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {SKILL_CATEGORIES.map((category) => {
             const Icon = categoryIcons[category.title] || Layout;
             const theme = categoryTheme[category.title] || categoryTheme["Frontend Development"];

@@ -67,7 +67,7 @@ TECHNICAL SKILLS
 • Databases: MySQL, MongoDB
 • Tools: Git, GitHub, Maven, Postman, VS Code, Eclipse
 • Technologies: JWT, JDBC, AJAX, JSON, Cloudinary, Razorpay
-• Core Concepts: OOP, Collections, Exception Handling, Data Structures, REST API, Authentication
+• Core Concepts: Data Structures & Algorithms (DSA), OOP, DBMS, SQL, Operating Systems, Computer Networks
 
 ==================================================
 PROJECTS
@@ -373,7 +373,7 @@ GitHub: ${PERSONAL_INFO.links.github} | LinkedIn: ${PERSONAL_INFO.links.linkedin
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-12 gap-1">
                 <span className="sm:col-span-3 font-bold text-white print:text-neutral-900">Core Concepts</span>
-                <span className="sm:col-span-9 text-slate-300 print:text-neutral-800">OOP, Collections, Exception Handling, Data Structures, REST API, Authentication</span>
+                <span className="sm:col-span-9 text-slate-300 print:text-neutral-800">Data Structures &amp; Algorithms (DSA), OOP, DBMS, SQL, Operating Systems, Computer Networks</span>
               </div>
             </div>
           </div>
